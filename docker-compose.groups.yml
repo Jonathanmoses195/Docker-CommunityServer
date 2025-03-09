@@ -33,9 +33,9 @@ services:
     networks:
      - onlyoffice
     ports:
-     - '80:80'
-     - '443:443'
-     - '5222:5222'
+     - '9080:80'
+     - '9081:443'
+     - '9082:5222'
     stdin_open: true
     tty: true
     restart: always
