@@ -111,7 +111,7 @@ services:
     image: onlyoffice/mailserver:1.6.75
     depends_on:
       - onlyoffice-mysql-server
-    hostname: ${MAIL_SERVER_HOSTNAME}
+    hostname: 'parttheseas.win'
     environment:
        - MYSQL_SERVER=onlyoffice-mysql-server
        - MYSQL_SERVER_PORT=3306
