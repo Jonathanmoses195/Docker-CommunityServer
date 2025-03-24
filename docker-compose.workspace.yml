@@ -122,7 +122,7 @@ services:
       - onlyoffice
     restart: always
     privileged: true
-    ports: ['9083:25','9084:143','9085:587']
+    ports: ['25:25','143:143','587:587']
     stdin_open: true
     tty: true
     expose:
